@@ -1,0 +1,31 @@
+public class Main {
+    public static void main(String[] args) {
+        Animal p = new Perro("canito","chapi");
+
+        p.setNombre("Choca");
+        p.comer();
+        p.caminar();
+        p.sonido();
+
+        System.out.println("----------------------------------");
+        Animal g = new Perro("Darzy","doberman");
+        g.setNombre("Mochita");
+        g.comer();
+        g.caminar();
+        g.sonido();
+
+        System.out.println("----------------------------------");
+        Animal h = new Gato("Yago","Angora");
+        h.setNombre("Yaguito");
+        h.comer();
+        h.caminar();
+        h.sonido();
+
+        System.out.println("----------------------------------");
+        Animal j = new Conejo("Pepito","Castilla");
+        j.setNombre("Conejo Pepito");
+        j.comer();
+        j.caminar();
+        j.sonido();
+    }
+}
